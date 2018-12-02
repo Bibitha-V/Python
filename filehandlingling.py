@@ -1,0 +1,7 @@
+print("OPening the file")
+fh= open("readme.txt")
+print("reading the files")
+lines=fh.readlines()
+print("the content of files is",lines)
+print("closing the file")
+fh.close()
